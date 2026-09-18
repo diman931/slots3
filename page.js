@@ -3,7 +3,7 @@ class BalanceSystem {
     constructor() {
         this.balance = 0;
         this.bonusAmount = 2;
-        this.bonusCooldown = 6000;
+        this.bonusCooldown = 1800000;
         this.lastBonusTime = null;
 
 
