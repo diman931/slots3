@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Казино</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="blockHi">
+                <h1 class="Hi"><strong>Приветствуем в нашем казино! 🤩</strong></h1>
+                <p class="Hi2">Крутите слоты и выигрывайте крупные выигрыши 💰</p>
+                <button id="but" class="butbonus"><b>Бонус 🎁</b></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slots-container">
+            <div class="slots-game">
+                <h2>💜 Neon Fruits</h2>
+                
+                <div class="slots-display">
+                    <div class="reel" id="reel1">💲</div>
+                    <div class="reel" id="reel2">💲</div>
+                    <div class="reel" id="reel3">💲</div>
+                    <div class="reel" id="reel4">💲</div>
+                    <div class="reel" id="reel5">💲</div>
+                    <div class="reel" id="reel6">💲</div>
+                    <div class="reel" id="reel7">💲</div>
+                    <div class="reel" id="reel8">💲</div>
+                </div>
+
+                
+                <div class="slots-info">
+                    <span id="balanceValue">$0.00</span>
+                    <div class="bet-info">
+                        <span>Ставка: $0.30</span>
+                    </div>
+                    <div class="win-info">
+                        <span id="winAmount">Выигрыш: $0.00</span>
+                    </div>
+                </div>
+                <div class="bet-selector">
+                    <h3>Выберите ставку:</h3>
+                    <div class="bet-buttons">
+                        <button class="bet-btn active" data-bet="0.01">$0.01</button>
+                        <button class="bet-btn" data-bet="0.03">$0.03</button>
+                        <button class="bet-btn" data-bet="0.05">$0.05</button>
+                        <button class="bet-btn" data-bet="0.1">$0.1</button>
+                        <button class="bet-btn" data-bet="0.25">$0.25</button>
+                        <button class="bet-btn" data-bet="0.50">$0.50</button>
+                        <button class="bet-btn" data-bet="1.00">$1.00</button>
+                        <button class="bet-btn" data-bet="3.00">$3.00</button>
+                        <button class="bet-btn" data-bet="8.00">$8.00</button>
+                    </div>
+                </div>
+                <button id="spinButton" class="spin-btn">🔁 Крутить</button>
+                <button id="speedToggle" class="speed-btn">⚡</button>
+                
+                <div class="payouts">
+                    <h3>Выплаты:</h3>
+                    <div class="payout-list">
+                        <div class="payout-item">4💎 - 100x</div>
+                        <div class="payout-item">4🍉 - 50x</div>
+                        <div class="payout-item">3💎 - 20x</div>
+                        <div class="payout-item">3🍉 - 10x</div>
+                        <div class="payout-item">2💎 - 3x</div>
+                        <div class="payout-item">2🍉 - 2x</div>
+                        <div class="payout-item">4🍓 - 35x</div>
+                        <div class="payout-item">4🍇 - 20x</div>
+                        <div class="payout-item">3🍓 - 7x</div>
+
+                        <div class="payout-item">3🍇 - 4x</div>
+
+                        <div class="payout-item">4🍋 - 15x</div>
+                        <div class="payout-item">4🍒 - 10x</div>
+                        <div class="payout-item">3🍋 - 3x</div>
+                        <div class="payout-item">3🍒 - 2x</div>
+                    </div>
+                        <div class="cashback-block">
+                            <button id="cashbackButton" class="cashback-btn">💰 CASHBACK</button>
+                            <span id="cashbackAmount">Доступно: $0.00</span>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="page.js"></script>
+</body>
+</html>
